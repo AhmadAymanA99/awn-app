@@ -1,0 +1,13 @@
+export const AllDonation = "http://localhost:5000/api/posts/Donation";
+export const AllRecycle = "http://localhost:5000/api/posts/recycling";
+export const AllPostsAPI = "http://localhost:5000/api/posts/allposts";
+export const AllVolunteer = "http://localhost:5000/api/posts/volunteering";
+export const AllVolunteerLimit = "http://localhost:5000/api/posts/volunteering/limit";
+export const AllRecycleLimit = "http://localhost:5000/api/posts/recycling/limit";
+export const AllDonationLimit = "http://localhost:5000/api/posts/Donation/limit";
+export const PostApi = `http://localhost:5000/api/posts/View/`;
+export const GetUserApi =`http://localhost:5000/api/users/userInfo/`;
+export const GetPostByIDApi = `http://localhost:5000/api/posts/postid/`;
+export const ReportPostApi = "http://localhost:5000/api/users/reportPost";
+export const UpdateStatusApi =  `http://localhost:5000/api/posts/updateStatus/`;
+export const DeletePostApi =  `http://localhost:5000/api/posts/`;

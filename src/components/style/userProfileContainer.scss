@@ -1,0 +1,58 @@
+#userProfilePersonalInfo > h3,
+#userProfilePersonalInfo > h2,
+#userProfilePersonalInfo > p,
+#userNoPosts {
+  margin-top: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#userNoPosts{
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+#userProfileHolder {
+  margin-top: 30px;
+  border: 3px solid #009899;
+  border-radius: 10px;
+  padding-top: 30px; // to be fixed more.
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+}
+
+#passwordContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.newPassword {
+  width: 138px;
+}
+
+.userProfilePosts > ul {
+  list-style: none;
+}
+
+.userProfileReviews > ul {
+  list-style: none;
+}
+
+.userProfileReviews > li {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+.userProfilePosts > li {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+#userProfilePersonalInfo{
+  padding-left: 20px;
+}

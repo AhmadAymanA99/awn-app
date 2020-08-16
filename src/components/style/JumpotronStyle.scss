@@ -1,0 +1,90 @@
+.donation {
+    background-image: url("https://image.freepik.com/free-vector/people-volunteering-donating-money-items_53876-59860.jpg");
+}
+
+.volunteering {
+    background-image: url("https://image.freepik.com/free-vector/people-volunteering-donating-money-items_53876-64646.jpg");
+}
+
+.recycling {
+    background-image: url("https://image.freepik.com/free-vector/people-cleaning-beach_23-2148452065.jpg");
+}
+
+.jumbotron {
+    width: 80rem;
+    height: 36rem;
+    margin: auto;
+    padding: 0;
+}
+
+.jumbotron img {
+    height: 36rem;
+}
+
+.jumbotron h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.jumbotron p {
+    color: white;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .jumbotron {
+        width: 62rem;
+        height: 28rem;
+        margin: auto;
+        padding: 0;
+    }
+    .jumbotron img {
+        height: 28rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        width: 45rem;
+        height: 21rem;
+        margin: auto;
+        padding: 0;
+    }
+    .jumbotron img {
+        height: 21rem;
+    }
+    .jumbotron h3 {
+        color: white;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .jumbotron p {
+        color: white;
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .jumbotron {
+        width: 25rem;
+        height: 11rem;
+        margin: auto;
+        padding: 0;
+    }
+    .jumbotron img {
+        height: 11rem;
+    }
+    .jumbotron h3 {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .jumbotron p {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

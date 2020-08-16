@@ -1,0 +1,30 @@
+#aboutHolder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+}
+#aboutHolder > .aboutHeader{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#aboutHolder > #ourGoal{
+    text-align: center;
+}
+
+#ourGoal{
+    margin-top: 40px;
+}
+
+#whoWeAre{
+    margin-top: 40px;
+    align-content:center;
+}
+#mainIntro{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#ourDevelopers > li > a{
+    font-size: 30px;
+    color: black;
+    opacity: 0.8;
+}

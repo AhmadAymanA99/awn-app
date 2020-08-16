@@ -1,0 +1,91 @@
+.footerHolder {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 0em;
+  margin-top: auto;
+  background-color: #d1e0e0;
+  color: black;
+  opacity: 0.9;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.leftFooter {
+  padding-left: 150px;
+  padding-top: 70px;
+  font-size: 20px;
+  width: 200px;
+  height: 240px;
+}
+.leftFooter a {
+  color: black;
+  margin-left: 4px;
+}
+
+.footerTitle {
+  font-size: 50px;
+  color: cyan;
+}
+
+.footerCenter {
+  padding-top: 40px;
+  width: 500px;
+  height: 240px;
+  font-size: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.fotterOffers {
+  font-size: 40px;
+}
+
+.footerCenter a {
+  color: black;
+}
+
+.rightFooter {
+  padding-top: 100px;
+  text-align: center;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+.rightFooter img {
+  background-size: cover;
+  width: 40px;
+  height: 20px;
+}
+
+.Facebook,
+.Twitter,
+.Instgram {
+  z-index: 11;
+}
+
+.copyRights {
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: lightseagreen;
+  text-align: center;
+  color: black;
+}
+
+.logo2 {
+  height: 75%;
+  margin-bottom: 0.6rem;
+  background-color: teal;
+}
+
+.footerHolder a:hover {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.footerHolder h3 {
+  color: #006666;
+}

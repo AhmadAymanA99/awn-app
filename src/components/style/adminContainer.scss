@@ -1,0 +1,53 @@
+#adminReports{
+    margin-top: 20px;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+#adminReportedPost{
+    margin: 0 auto;
+}
+
+#adminContainerHolder{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #8bd8c6 ;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#adminReportsArea{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#adminContainerHolder h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.reportHolder , #postHolder{
+    margin-bottom: 20px;
+}
+.reportHolder > button, #postHolder > button{
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+#adminPostsArea{
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+#adminPosts{
+    padding: 30px;
+    list-style: none;
+}
+
+#postHolder, .reportHolder{
+    padding: 15px;
+    border:  3px solid lightgreen;
+    border-radius: 15px;
+}

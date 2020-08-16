@@ -1,0 +1,20 @@
+#createPostHolder {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 3px solid #009899;
+  border-radius: 30px;
+}
+
+#createPostButton > Button {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#createPostHolder > .tBig {
+  padding-left: 12px;
+}

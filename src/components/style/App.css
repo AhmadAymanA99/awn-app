@@ -1,0 +1,213 @@
+#navBar {
+    background-color: #009999;
+    width: 100%;
+    height: 5rem;
+    display: inline-flex;
+    margin-bottom: 1rem;
+}
+
+#categoriesNav {
+    margin-top: 1.5rem;
+}
+
+#categoriesNav a {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#categoriesNav a:hover {
+    color: aquamarine;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 9rem;
+    margin-right: -6rem;
+}
+
+.logo:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    cursor: pointer;
+}
+
+.regButton {
+    height: 2.6rem;
+    padding: 0 15px;
+    margin-top: 1rem;
+    background-color: #d9f2e6;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: #006666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 6px;
+}
+
+.regButton:hover {
+    color: #d9f2e6;
+    background-color: #006666;
+}
+
+.logButton {
+    height: 2.6rem;
+    padding: 0 15px;
+    margin-top: 1rem;
+    background-color: #006666;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: #d9f2e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logButton:hover {
+    color: #006666;
+    background-color: #d9f2e6;
+}
+
+.rightDiv {
+    margin: 0.3rem auto;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: 100;
+    padding: 15px;
+    color: white;
+}
+
+.username:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    #navBar {
+        background-color: #009999;
+        width: 100%;
+        height: 5rem;
+        display: inline-flex;
+        margin-bottom: 1rem;
+    }
+    #categoriesNav {
+        margin-top: 1.5rem;
+    }
+    #categoriesNav a {
+        padding: 0 0.6rem;
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .logo {
+        height: 100%;
+        margin-left: 4rem;
+        margin-right: -9rem;
+    }
+    .rightDiv {
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .username {
+        font-size: 20px;
+        font-weight: 100;
+        padding: 0;
+        color: white;
+    }
+    .regButton {
+        padding: 0 5px;
+        margin-top: 0.1rem;
+        background-color: #d9f2e6;
+        border: none;
+        border-radius: 7px;
+        font-weight: 600;
+        color: #006666;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navBar {
+        background-color: #009999;
+        width: 100%;
+        height: 5.2rem;
+        display: inline-flex;
+        margin-bottom: 1rem;
+    }
+    #categoriesNav {
+        margin-top: 1.5rem;
+    }
+    #categoriesNav a {
+        padding: 0 0.5rem;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .logo {
+        height: 100%;
+        margin-left: 0rem;
+        margin-right: -9.5rem;
+    }
+    .regButton {
+        margin-top: 0.2rem;
+        background-color: #d9f2e6;
+        border: none;
+        border-radius: 7px;
+        font-weight: 600;
+        color: #006666;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .rightDiv {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #navBar {
+        background-color: #009999;
+        width: 100%;
+        height: 9.5rem;
+        display: inline-flex;
+        margin-bottom: 1rem;
+    }
+    #categoriesNav {
+        margin-top: 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #categoriesNav a {
+        padding: 0 0.5rem;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .logo {
+        height: 100%;
+        width: 100%;
+        margin-left: 0rem;
+        margin-right: -8rem;
+    }
+    .regButton {
+        margin-top: 0.2rem;
+        background-color: #d9f2e6;
+        border: none;
+        border-radius: 7px;
+        font-weight: 600;
+        color: #006666;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .rightDiv {
+        margin-left: 1.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
