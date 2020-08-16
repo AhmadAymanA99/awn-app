@@ -13,7 +13,7 @@ export const createPost = (title,description,location,tags,token,categoryName,su
     }
 
     // API CALL
-    fetch(`http://${ip}:5000/api/posts`,{
+    fetch(`https://awn-backend.herokuapp.com/api/posts`,{
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached

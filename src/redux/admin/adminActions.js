@@ -9,7 +9,7 @@ export const removePost = (reportId,token) => {
         reportId:reportId
     }
 
-    fetch(`http://${ip}:5000/api/admins/removePost`,{
+    fetch(`https://awn-backend.herokuapp.com/api/admins/removePost`,{
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -47,7 +47,7 @@ export const removeUser = (reportId,token) => {
         reportId:reportId
     }
 
-    fetch(`http://${ip}:5000/api/admins/banUser`,{
+    fetch(`https://awn-backend.herokuapp.com/api/admins/banUser`,{
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -86,7 +86,7 @@ export const removeReport = (reportID,token) => {
         _id : reportID
     }
 
-    fetch(`http://${ip}:5000/api/admins/removeReport`,{
+    fetch(`https://awn-backend.herokuapp.com/api/admins/removeReport`,{
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -125,7 +125,7 @@ export const adminLogin = (userName,password) => {
 
     return (dispatch) => {
         
-        fetch(`http://${ip}:5000/api/admins/login`,{
+        fetch(`https://awn-backend.herokuapp.com/api/admins/login`,{
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -176,7 +176,7 @@ export const adminGetReportItems = (token) => {
     
 
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/admins/viewReportedPosts`,{
+        fetch(`https://awn-backend.herokuapp.com/api/admins/viewReportedPosts`,{
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached

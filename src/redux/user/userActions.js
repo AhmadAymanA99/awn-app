@@ -7,7 +7,7 @@ var status= ""
 export const getUserPosts = (userName) => {
     console.log(userName)
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/posts/username/${userName}`,{
+        fetch(`https://awn-backend.herokuapp.com/api/posts/username/${userName}`,{
             method:'GET',
             headers:{
                 'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ export const getUserReviews = (userName) => {
 export const getUserData = (userName)=>{
     
     var status ="";
-    var url = `http://${ip}:5000/api/users/getUser/${userName}`
+    var url = `https://awn-backend.herokuapp.com/api/users/getUser/${userName}`
 
     return (dispatch) => {
         fetch(url)
@@ -93,7 +93,7 @@ export const confirmEmail = (userId,generatedToken) => {
         token:generatedToken
     }
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/users/confirmEmail`, {
+        fetch(`https://awn-backend.herokuapp.com/api/users/confirmEmail`, {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -123,7 +123,7 @@ export const rateUser = (token,rate,userName) => {
         userName:userName
     }
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/users/rate`, {
+        fetch(`https://awn-backend.herokuapp.com/api/users/rate`, {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -158,7 +158,7 @@ export const editPost = (title, description, location, tags, categoryName,subCat
         subCategory:subCategoryName
     }
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/posts/update/${postId}`, {
+        fetch(`https://awn-backend.herokuapp.com/api/posts/update/${postId}`, {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -193,7 +193,7 @@ export const editSuccess = () => {
 export const deleteAccount = (token)=> {
     const opts = {}
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/users/deactivate`, {
+        fetch(`https://awn-backend.herokuapp.com/api/users/deactivate`, {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached

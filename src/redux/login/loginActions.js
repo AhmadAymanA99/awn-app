@@ -10,7 +10,7 @@ export const login = (userName, password) => {
     }
 
     return (dispatch) => {
-        fetch(`http://${ip}:5000/api/users/login`, {
+        fetch(`https://awn-backend.herokuapp.com/api/users/login`, {
                 method: 'POST', // *GET, POST, PUT, DELETE, etc.
                 mode: 'cors', // no-cors, *cors, same-origin
                 cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -62,7 +62,7 @@ export const changePassword = (password, token) => {
     const opts = {
         password: password
     }
-    fetch(`http://${ip}:5000/api/users/userChangePassword`, {
+    fetch(`https://awn-backend.herokuapp.com/api/users/userChangePassword`, {
             method: 'POST', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
