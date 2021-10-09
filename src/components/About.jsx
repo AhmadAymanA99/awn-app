@@ -18,7 +18,7 @@ function About() {
                     <h3 id="mainIntro">We are a group of software engineers who are passionate about helping each other and society as a whole and this is our team</h3>
                     <ul id="ourDevelopers">
                         <li><a href="https://github.com/RPWPA">Moataz Alsayed Abd-Elfatah</a></li>
-                        <li><a href="https://github.com/AhmadAyman99">Ahmad Ayman</a></li>
+                        <li><a href="https://github.com/AhmadAymanA99">Ahmad Ayman</a></li>
                         <li><a href="https://github.com/karlyator">Abdallah Abdelkhaleq</a></li>
                         <li><a href="https://github.com/zabdeln4">Ziad Mahmoud</a></li>
                         <li><a href="https://github.com/michaelraoof">Michael Raouf</a></li>
